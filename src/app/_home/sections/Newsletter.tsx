@@ -1,6 +1,16 @@
+"use client";
+
 import Link from "next/link";
+import { useWaitlistModal } from "@/context/WaitlistContext";
 
 export default function Newsletter() {
+  const { openWaitlistModal } = useWaitlistModal();
+
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    openWaitlistModal();
+  };
+
   return (
     <section className="w-full bg-white px-6 py-20 sm:px-10 lg:px-24 lg:py-24" id="newsletter">
       <div className="mx-auto flex max-w-4xl flex-col items-center text-center">
@@ -16,7 +26,7 @@ export default function Newsletter() {
           Join our community updates and be first to hear about programmes, events, and founder stories.
         </p>
 
-        <form className="mt-10 flex w-full max-w-2xl flex-col gap-3 rounded-full bg-[#f5f5f5] p-3 shadow-[0_10px_30px_rgba(13,17,23,0.04)] sm:flex-row">
+        <form onSubmit={handleSubmit} className="mt-10 flex w-full max-w-2xl flex-col gap-3 rounded-full bg-[#f5f5f5] p-3 shadow-[0_10px_30px_rgba(13,17,23,0.04)] sm:flex-row">
           <label className="sr-only" htmlFor="newsletter-email">
             Email address
           </label>
@@ -24,11 +34,12 @@ export default function Newsletter() {
             id="newsletter-email"
             type="email"
             placeholder="Enter your email address"
+            disabled
             className="min-w-0 flex-1 rounded-full border border-transparent bg-transparent px-5 py-4 text-base text-black outline-none placeholder:text-neutral-400 focus:border-primary focus:bg-white"
           />
           <button
             type="submit"
-            className="rounded-full bg-primary px-7 py-4 text-base font-medium text-black hover:brightness-110"
+            className="rounded-full bg-primary px-7 py-4 text-base font-medium text-black hover:brightness-110 cursor-pointer"
           >
             Subscribe
           </button>
@@ -48,3 +59,4 @@ export default function Newsletter() {
     </section>
   );
 }
+

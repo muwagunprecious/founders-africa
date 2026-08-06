@@ -3,6 +3,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import Header from "@/components/header/Header";
 import Footer from "@/components/footer/Footer";
+import { WaitlistProvider } from "@/context/WaitlistContext";
 
 const satoshi = localFont({
   src: [
@@ -76,10 +77,13 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <link rel="icon" type="image/svg+xml" href="founders-africa-logo.svg"/>
       </head>
       <body className="min-h-full flex flex-col relative">
-        <Header />
-        <main>{children}</main>
-        <Footer />
+        <WaitlistProvider>
+          <Header />
+          <main>{children}</main>
+          <Footer />
+        </WaitlistProvider>
       </body>
     </html>
   );
 }
+

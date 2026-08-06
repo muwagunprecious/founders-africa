@@ -18,8 +18,8 @@ const tracks: TrackCard[] = [
       "A structured incubation programme for early-stage and ideation-stage tech founders.",
     months: "4",
     fellows: "25",
-    topImage: "/images/tech-incubation-image.png",
     eyebrow: "Most Popular",
+    topImage: "/images/tech-incubation-image.png",
   },
   {
     title: "Accelerator Program",
@@ -28,6 +28,7 @@ const tracks: TrackCard[] = [
       "A bootcamp-style programme for businesses with an MVP or early-stage market traction.",
     months: "4",
     fellows: "20",
+    topImage: "/images/tech-incubation-image.png",
   },
   {
     title: "Remote Incubation",
@@ -36,6 +37,7 @@ const tracks: TrackCard[] = [
       "A career acceleration programme preparing young talent for the global digital workforce.",
     months: "4",
     fellows: "20",
+    topImage: "/images/tech-incubation-image.png",
   },
   {
     title: "Research Internship",
@@ -44,6 +46,7 @@ const tracks: TrackCard[] = [
       "A research-focused track giving emerging talent structured exposure to applied research.",
     months: "4",
     fellows: "20",
+    topImage: "/images/tech-incubation-image.png",
   },
   {
     title: "Founders Summit",
@@ -52,6 +55,7 @@ const tracks: TrackCard[] = [
       "The premier annual gathering connecting founders, investors, and ecosystem leaders.",
     months: "Annual",
     fellows: "1000+",
+    topImage: "/images/tech-incubation-image.png",
   },
 ];
 
@@ -121,7 +125,7 @@ function TrackCardShell({ track }: { track: TrackCard }) {
 
 export default function FellowshipTracks() {
   return (
-    <section className="w-full bg-[#f6faea] px-6 py-20 sm:px-10 lg:px-24">
+    <section className="w-full bg-[#f6faea] px-6 py-20 sm:px-10 lg:px-24" id="programmes">
       <div className="mx-auto max-w-6xl">
         <p className="text-sm font-medium uppercase tracking-[0.28em] text-primary">
           Our Programmes

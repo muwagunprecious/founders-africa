@@ -1,4 +1,11 @@
+"use client";
+
+import Link from "next/link";
+import { useWaitlistModal } from "@/context/WaitlistContext";
+
 export default function Hero() {
+  const { openWaitlistModal } = useWaitlistModal();
+
   return (
     <section
       className="relative w-full min-h-[88svh] overflow-hidden text-white"
@@ -28,10 +35,16 @@ export default function Hero() {
           </p>
 
           <div className="mt-10 flex flex-col gap-4 sm:flex-row sm:items-center">
-            <button className="rounded-xl bg-primary px-6 py-3.5 text-sm font-medium text-black cursor-pointer hover:brightness-125 sm:px-10 sm:py-4 sm:text-lg">
+            <Link
+              href="#programmes"
+              className="rounded-xl bg-primary px-6 py-3.5 text-sm font-medium text-black cursor-pointer hover:brightness-125 sm:px-10 sm:py-4 sm:text-lg"
+            >
               Explore Programmes
-            </button>
-            <button className="rounded-xl border-2 border-white px-6 py-3.5 text-sm font-medium cursor-pointer hover:shadow-[0_0_15px_rgba(255,255,255,1)] sm:px-10 sm:py-4 sm:text-lg">
+            </Link>
+            <button
+              onClick={openWaitlistModal}
+              className="rounded-xl border-2 border-white px-6 py-3.5 text-sm font-medium cursor-pointer hover:shadow-[0_0_15px_rgba(255,255,255,1)] sm:px-10 sm:py-4 sm:text-lg"
+            >
               Register For Summit
             </button>
           </div>
@@ -40,3 +53,4 @@ export default function Hero() {
     </section>
   );
 }
+

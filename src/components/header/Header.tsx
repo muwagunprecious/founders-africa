@@ -5,6 +5,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { programmes } from "../../app/program/_data";
 import NavLink from "./nav-link/navLink";
+import { useWaitlistModal } from "@/context/WaitlistContext";
 
 const navItems = [
   { label: "Home", href: "/" },
@@ -30,6 +31,7 @@ function isActivePath(pathname: string, href: string) {
 export default function Header() {
   const pathname = usePathname();
   const [menuOpen, setMenuOpen] = useState(false);
+  const { openWaitlistModal } = useWaitlistModal();
 
   useEffect(() => {
     setMenuOpen(false);
@@ -115,13 +117,18 @@ export default function Header() {
             </nav>
 
             <div className="mt-4 flex flex-col gap-3 border-t border-black/5 pt-4">
-              <Link
-                href="/sign-in"
-                className="rounded-full px-4 py-3 text-center text-sm font-medium text-black hover:bg-black/5"
+              <button
+                type="button"
+                onClick={openWaitlistModal}
+                className="rounded-full px-4 py-3 text-center text-sm font-medium text-black hover:bg-black/5 cursor-pointer"
               >
                 Sign In
-              </Link>
-              <button className="cursor-pointer rounded-full bg-primary px-4 py-3 text-sm font-medium hover:brightness-125">
+              </button>
+              <button
+                type="button"
+                onClick={openWaitlistModal}
+                className="cursor-pointer rounded-full bg-primary px-4 py-3 text-sm font-medium hover:brightness-125"
+              >
                 Apply Now
               </button>
             </div>
@@ -168,13 +175,18 @@ export default function Header() {
           </nav>
 
           <div className="absolute right-4 flex flex-row items-center gap-4">
-            <Link
-              href="/sign-in"
-              className="font-medium hover:text-primary"
+            <button
+              type="button"
+              onClick={openWaitlistModal}
+              className="font-medium hover:text-primary cursor-pointer"
             >
               Sign In
-            </Link>
-            <button className="cursor-pointer rounded-full bg-primary px-4 py-2 font-medium hover:brightness-125">
+            </button>
+            <button
+              type="button"
+              onClick={openWaitlistModal}
+              className="cursor-pointer rounded-full bg-primary px-4 py-2 font-medium hover:brightness-125"
+            >
               Apply Now
             </button>
           </div>
@@ -183,3 +195,4 @@ export default function Header() {
     </header>
   );
 }
+

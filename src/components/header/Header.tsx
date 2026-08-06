@@ -25,7 +25,7 @@ export default function Header() {
   const pathname = usePathname();
 
   return (
-    <header className="relative flex flex-row items-center justify-center p-8 bg-white sticky top-0">
+    <header className="relative flex flex-row items-center justify-center p-6 bg-white sticky top-0 z-50">
       <nav className="flex flex-row items-center gap-4">
         {navItems.map((item) => (
           <NavLink

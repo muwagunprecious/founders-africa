@@ -15,8 +15,8 @@ const tracks: TrackCard[] = [
     title: "Tech Incubation",
     href: "/program/tech-incubation",
     description:
-      "A 6-month programme for early-stage tech founders building scalable solutions across Africa.",
-    months: "6",
+      "A structured incubation programme for early-stage and ideation-stage tech founders.",
+    months: "4",
     fellows: "25",
     topImage: "/images/tech-incubation-image.png",
     eyebrow: "Most Popular",
@@ -25,7 +25,7 @@ const tracks: TrackCard[] = [
     title: "Accelerator Program",
     href: "/program/accelerator-program",
     description:
-      "A bootcamp-style programme for businesses with an existing MVP or early-stage market traction.",
+      "A bootcamp-style programme for businesses with an MVP or early-stage market traction.",
     months: "4",
     fellows: "20",
   },
@@ -33,7 +33,7 @@ const tracks: TrackCard[] = [
     title: "Remote Incubation",
     href: "/program/remote-incubation",
     description:
-      "A bootcamp-style programme for distributed founders building from anywhere on the continent.",
+      "A career acceleration programme preparing young talent for the global digital workforce.",
     months: "4",
     fellows: "20",
   },
@@ -41,7 +41,7 @@ const tracks: TrackCard[] = [
     title: "Research Internship",
     href: "/program/research-internship",
     description:
-      "Preparing young Nigerians for successful careers in the global digital and remote workforce.",
+      "A research-focused track giving emerging talent structured exposure to applied research.",
     months: "4",
     fellows: "20",
   },
@@ -49,9 +49,9 @@ const tracks: TrackCard[] = [
     title: "Founders Summit",
     href: "/summit",
     description:
-      "A bootcamp-style programme for founders attending the annual summit and growth sessions.",
-    months: "4",
-    fellows: "20",
+      "The premier annual gathering connecting founders, investors, and ecosystem leaders.",
+    months: "Annual",
+    fellows: "1000+",
   },
 ];
 

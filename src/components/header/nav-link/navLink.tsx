@@ -6,6 +6,7 @@ type NavLinkProps = {
   href: string;
   active?: boolean;
   className?: string;
+  disabled?: boolean;
 };
 
 export default function NavLink({
@@ -13,16 +14,20 @@ export default function NavLink({
   active = false,
   className = "",
   href,
+  disabled = false,
 }: NavLinkProps) {
   return (
     <Link
-      href={href}
+      href={disabled ? "#" : href}
       aria-current={active ? "page" : undefined}
       className={clsx(
         className,
         "hover:text-primary p-2",
         active ? "text-foreground font-medium" : "text-gray-400",
       )}
+      onClick={(e) => {
+        if (disabled) e.preventDefault();
+      }}
     >
       {children}
     </Link>

@@ -22,7 +22,7 @@ const pressLogos = [
 
 export default function PressBar() {
   return (
-    <section className="w-full bg-white px-6 py-16 sm:px-10 lg:px-24">
+    <section className="w-full bg-white px-6 py-16 sm:px-10 lg:px-24" id="partners">
       <div className="mx-auto max-w-6xl">
         <div className="mb-8 text-center">
           <p className="text-sm font-medium uppercase tracking-[0.28em] text-primary">

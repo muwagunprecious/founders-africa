@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Newsletter() {
   return (
-    <section className="w-full bg-white px-6 py-20 sm:px-10 lg:px-24 lg:py-24">
+    <section className="w-full bg-white px-6 py-20 sm:px-10 lg:px-24 lg:py-24" id="newsletter">
       <div className="mx-auto flex max-w-4xl flex-col items-center text-center">
         <p className="text-sm font-medium uppercase tracking-[0.28em] text-primary">
           Stay Connected

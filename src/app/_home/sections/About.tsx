@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function About() {
   return (
-    <section className="w-full bg-white px-6 py-20 sm:px-10 lg:px-24 lg:py-24">
+    <section className="w-full bg-white px-6 py-20 sm:px-10 lg:px-24 lg:py-24" id="about">
       <div className="mx-auto grid max-w-5xl items-center gap-10 lg:grid-cols-[1.15fr_0.85fr] lg:gap-16">
         <div className="max-w-xl">
           <p className="mb-3 text-sm font-medium uppercase tracking-[0.28em] text-primary">

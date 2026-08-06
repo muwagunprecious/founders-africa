@@ -46,16 +46,16 @@ export default function Footer() {
             <h2 className="text-xs uppercase tracking-[0.22em] text-gray-400">
               Summit
             </h2>
-            <Link href="" className="hover:text-gray-400">
+            <Link href="/summit" className="hover:text-gray-400">
               About Summit
             </Link>
-            <Link href="" className="hover:text-gray-400">
+            <Link href="/summit" className="hover:text-gray-400">
               Speakers
             </Link>
-            <Link href="" className="hover:text-gray-400">
+            <Link href="/summit" className="hover:text-gray-400">
               Agenda
             </Link>
-            <Link href="" className="hover:text-gray-400">
+            <Link href="/summit" className="hover:text-gray-400">
               Tickets
             </Link>
           </div>

@@ -11,9 +11,9 @@ const navItems = [
   { label: "Home", href: "/" },
   { label: "Programmes", href: "/program" },
   { label: "Summit", href: "/summit" },
-  { label: "About", href: "/about" },
-  { label: "Impact", href: "/impact" },
-  { label: "Partners", href: "/partners" },
+  { label: "About", href: "/#about" },
+  { label: "Impact", href: "/#impact" },
+  { label: "Partners", href: "/#partners" },
 ];
 
 function isActivePath(pathname: string, href: string) {

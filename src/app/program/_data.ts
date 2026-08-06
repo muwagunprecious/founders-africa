@@ -44,18 +44,18 @@ export const programmes: ProgramData[] = [
   {
     slug: "tech-incubation",
     navLabel: "Tech Incubation",
-    title: "Tech Incubation Fellowship",
-    eyebrow: "Tech Incubation Fellowship",
-    heroTitle: "Tech Incubation Fellowship",
+    title: "Tech Incubation",
+    eyebrow: "Tech Incubation",
+    heroTitle: "Tech Incubation",
     heroCopy:
       "A structured incubation programme for technology entrepreneurs, open both to founders with existing businesses and to those still at the ideation stage.",
     heroImage: "/images/tech-incubation-hero-image.png",
     heroStatus: "Applications Open",
-    heroDeadline: "Deadline: 30 August 2026",
+    heroDeadline: "Deadline: 30 August 2027",
     heroCta: "Apply Now",
-    heroSecondaryCta: "Deadline: 30 August 2026",
+    heroSecondaryCta: "Deadline: 30 August 2027",
     applicationCard: {
-      title: "Tech Incubation Fellowship",
+      title: "Tech Incubation",
       subtitle: "Autumn Cohort • September - December",
       items: [
         { label: "Duration", value: "4 Months (Sep - Dec)" },
@@ -65,12 +65,11 @@ export const programmes: ProgramData[] = [
         { label: "Equity", value: "None" },
       ],
       deadlineLabel: "Application Deadline",
-      deadlineValue: "30th August 2026",
+      deadlineValue: "30th August 2027",
     },
     about: [
       "The Tech Incubation Fellowship is a structured incubation programme for technology entrepreneurs, open both to founders with existing businesses and to those still at the ideation stage.",
       "The programme is designed to support founders in building scalable, investment-ready technology businesses through structured mentorship, technical guidance, and business-model development.",
-      "Where the Summit is a moment, the founders' fellowship is a process: an intensive four-month season of training, mentorship, and hands-on building, running from September through December.",
     ],
     highlights: [
       {
@@ -90,15 +89,15 @@ export const programmes: ProgramData[] = [
       },
       {
         value: "4 Months",
-        label: "Autumn Season",
-        description: "An intensive season of training, mentorship, and hands-on building (Sept - Dec).",
+        label: "Season Fellowship",
+        description: "An intensive season of training, mentorship, and hands-on building.",
       },
     ],
     eligibility: [
       { label: "Location", value: "Any African country" },
       { label: "Stage", value: "Early-stage and ideation-stage tech founders" },
       { label: "Focus", value: "Building scalable, investment-ready tech businesses" },
-      { label: "Duration", value: "4 Months (September – December)" },
+      { label: "Duration", value: "4 Months" },
       { label: "Equity", value: "No equity taken" },
     ],
     faqs: [
@@ -135,9 +134,9 @@ export const programmes: ProgramData[] = [
       "A bootcamp-style programme for businesses that already have a Minimum Viable Product (MVP) or early-stage market traction.",
     heroImage: "/images/accelerator-program-hero-image.png",
     heroStatus: "Applications Open",
-    heroDeadline: "Deadline: 30 August 2026",
+    heroDeadline: "Deadline: 30 August 2027",
     heroCta: "Apply Now",
-    heroSecondaryCta: "Deadline: 30 August 2026",
+    heroSecondaryCta: "Deadline: 30 August 2027",
     applicationCard: {
       title: "Accelerator Program",
       subtitle: "Autumn Cohort • September - December",
@@ -149,12 +148,11 @@ export const programmes: ProgramData[] = [
         { label: "Equity", value: "None" },
       ],
       deadlineLabel: "Application Deadline",
-      deadlineValue: "30th August 2026",
+      deadlineValue: "30th August 2027",
     },
     about: [
       "The Accelerator Program is a bootcamp-style programme for businesses that already have a Minimum Viable Product (MVP) or early-stage market traction.",
       "The Accelerator is built to compress the distance between early traction and sustainable growth, sharpening go-to-market strategy, unit economics, and fundraising readiness.",
-      "Where the Summit is a moment, the founders' fellowship is a process: an intensive four-month season of training, mentorship, and hands-on building, running from September through December.",
     ],
     highlights: [
       {
@@ -174,7 +172,7 @@ export const programmes: ProgramData[] = [
       },
       {
         value: "4 Months",
-        label: "Autumn Sprint",
+        label: "Fellowship Sprint",
         description: "Compressing the distance between early traction and sustainable growth.",
       },
     ],
@@ -199,7 +197,7 @@ export const programmes: ProgramData[] = [
       {
         question: "What is the timeline for the Accelerator?",
         answer:
-          "The Accelerator runs as an intensive 4-month season from September through December.",
+          "The Accelerator runs as an intensive 4-month season.",
       },
       {
         question: "Does Founders Africa take equity?",
@@ -216,12 +214,12 @@ export const programmes: ProgramData[] = [
     eyebrow: "Remote Incubation",
     heroTitle: "Remote Incubation",
     heroCopy:
-      "A career acceleration programme designed to prepare young Nigerians for successful careers in the global digital and remote workforce.",
+      "A career acceleration programme designed to prepare young Africans for successful careers in the global digital and remote workforce.",
     heroImage: "/images/remote-incubation-hero-image.png",
     heroStatus: "Applications Open",
-    heroDeadline: "Deadline: 30 August 2026",
+    heroDeadline: "Deadline: 30 August 2027",
     heroCta: "Apply Now",
-    heroSecondaryCta: "Deadline: 30 August 2026",
+    heroSecondaryCta: "Deadline: 30 August 2027",
     applicationCard: {
       title: "Remote Incubation",
       subtitle: "Autumn Cohort • September - December",
@@ -233,12 +231,11 @@ export const programmes: ProgramData[] = [
         { label: "Equity", value: "None" },
       ],
       deadlineLabel: "Application Deadline",
-      deadlineValue: "30th August 2026",
+      deadlineValue: "30th August 2027",
     },
     about: [
       "The Remote Incubation Program is a career acceleration programme designed to prepare young Nigerians for successful careers in the global digital and remote workforce.",
       "This track recognises that not every promising young person will found a company immediately; many will first build careers as remote professionals, and this programme equips them to do so competitively on the global stage.",
-      "Where the Summit is a moment, the founders' fellowship is a process: an intensive four-month season of training, mentorship, and hands-on building, running from September through December.",
     ],
     highlights: [
       {
@@ -258,15 +255,15 @@ export const programmes: ProgramData[] = [
       },
       {
         value: "4 Months",
-        label: "Autumn Season",
-        description: "Intensive training, mentorship, and career acceleration (Sept - Dec).",
+        label: "Season Fellowship",
+        description: "Intensive training, mentorship, and career acceleration.",
       },
     ],
     eligibility: [
-      { label: "Target", value: "Young Nigerians & emerging digital professionals" },
+      { label: "Target", value: "Young Africans & emerging digital professionals" },
       { label: "Focus", value: "Global digital and remote workforce preparation" },
       { label: "Format", value: "Fully Remote" },
-      { label: "Duration", value: "4 Months (September – December)" },
+      { label: "Duration", value: "4 Months" },
       { label: "Equity", value: "No equity taken" },
     ],
     faqs: [
@@ -283,7 +280,7 @@ export const programmes: ProgramData[] = [
       {
         question: "What is the schedule for this programme?",
         answer:
-          "The track is a 4-month remote-first experience running from September through December.",
+          "The track is a 4-month remote-first experience.",
       },
       {
         question: "What outcomes can participants expect?",
@@ -303,9 +300,9 @@ export const programmes: ProgramData[] = [
       "A research-focused internship track that gives emerging talent structured exposure to applied research within the startup and innovation ecosystem.",
     heroImage: "/images/research-internship-hero-image.png",
     heroStatus: "Applications Open",
-    heroDeadline: "Deadline: 30 August 2026",
+    heroDeadline: "Deadline: 30 August 2027",
     heroCta: "Apply Now",
-    heroSecondaryCta: "Deadline: 30 August 2026",
+    heroSecondaryCta: "Deadline: 30 August 2027",
     applicationCard: {
       title: "Research Internship",
       subtitle: "Autumn Cohort • September - December",
@@ -317,12 +314,11 @@ export const programmes: ProgramData[] = [
         { label: "Equity", value: "None" },
       ],
       deadlineLabel: "Application Deadline",
-      deadlineValue: "30th August 2026",
+      deadlineValue: "30th August 2027",
     },
     about: [
       "The Research Internship is a research-focused track that gives emerging talent structured exposure to applied research within the startup and innovation ecosystem.",
       "The programme builds the analytical and research capacity that underpins informed business and policy decisions across the Founders community.",
-      "Running from September through December during the Founders Autumn Fellowship, interns feed insight back into the broader Founders platform and programming.",
     ],
     highlights: [
       {
@@ -342,15 +338,15 @@ export const programmes: ProgramData[] = [
       },
       {
         value: "4 Months",
-        label: "Autumn Term",
-        description: "An intensive four-month season of applied research and analysis (Sept - Dec).",
+        label: "Internship Term",
+        description: "An intensive four-month season of applied research and analysis.",
       },
     ],
     eligibility: [
       { label: "Location", value: "Any African country" },
       { label: "Target", value: "Emerging research talent & analytical minds" },
       { label: "Focus", value: "Applied research within the startup & innovation ecosystem" },
-      { label: "Duration", value: "4 Months (September – December)" },
+      { label: "Duration", value: "4 Months" },
       { label: "Equity", value: "No equity taken" },
     ],
     faqs: [
@@ -367,7 +363,7 @@ export const programmes: ProgramData[] = [
       {
         question: "When does the Research Internship run?",
         answer:
-          "It runs for 4 months from September through December alongside the main Founders Autumn Fellowship season.",
+          "It runs for 4 months alongside the main Founders Fellowship season.",
       },
       {
         question: "Are interns supported with a stipend?",

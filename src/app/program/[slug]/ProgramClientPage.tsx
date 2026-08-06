@@ -43,9 +43,9 @@ export default function ProgramClientPage({ programme }: { programme: ProgramDat
               >
                 {programme.heroCta}
               </button>
-              <div className="inline-flex items-center rounded-xl border border-white/20 bg-white/5 px-4 py-3 text-sm text-white/80 backdrop-blur-sm sm:px-5 sm:py-4">
+              {/* <div className="inline-flex items-center rounded-xl border border-white/20 bg-white/5 px-4 py-3 text-sm text-white/80 backdrop-blur-sm sm:px-5 sm:py-4">
                 {programme.heroSecondaryCta}
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
@@ -142,7 +142,7 @@ export default function ProgramClientPage({ programme }: { programme: ProgramDat
             </section>
           </div>
 
-          <aside className="h-fit lg:sticky lg:top-28" id="application">
+          {/* <aside className="h-fit lg:sticky lg:top-28" id="application">
             <div className="rounded-2xl border border-black/10 bg-white p-6 shadow-[0_18px_50px_rgba(13,17,23,0.08)]">
               <div className="flex items-center gap-2 text-sm font-medium text-primary-alt">
                 <span className="h-2 w-2 rounded-full bg-primary" />
@@ -188,7 +188,7 @@ export default function ProgramClientPage({ programme }: { programme: ProgramDat
                 </p>
               </div>
             </div>
-          </aside>
+          </aside> */}
         </div>
       </section>
     </div>
